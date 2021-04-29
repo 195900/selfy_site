@@ -1,0 +1,155 @@
+ul li{
+  list-style: none;
+
+}
+
+li{
+  margin: 10px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: black;
+   padding: 5px 15px;
+   transition: background 300ms;
+}
+
+nav ul {
+   display: inline-flex;
+   float: right;
+   list-style: none;
+}
+
+nav ul li a:hover {
+   background: black;
+   color: white;
+}
+
+header{
+ background:white;
+ position: fixed;
+ display: flex;
+   width: 100%;
+   top:0;
+  left:0;
+  height:70px;
+}
+
+header > * {
+   flex-grow: 1;
+   padding: 5px;
+}
+
+
+.logo{
+ font-family: 'Bebas Neue',sans-serif ;
+ text-decoration: underline;
+}
+
+header .logo{
+  margin-left:20px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: black;
+   padding: 5px 15px;
+}
+
+.main-nav ul{
+ display: inline-flex;
+   text-decoration: none;
+}
+
+.banner{
+  height:65vh;
+  background: url(img/aboutme.jpg);
+  background-size: cover;
+}
+
+.quote{
+  color: white;
+      width: 100%;
+      text-align:left;
+      padding-top: 50vh;
+      padding-left: 3vh;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito',serif;
+}
+
+.main-nav{
+  position: absolute;
+  right:0px;
+}
+
+
+  button {
+    padding: 10px;
+    background: black;
+    border: none;
+    color: white;
+    transition: background 300ms, box-shadow 300ms;
+}
+
+button:hover {
+    background: #252627;
+    box-shadow: 1px 1px 6px grey;
+}
+
+.all{
+  background:url(img/background.jpg);
+  margin:0px;
+  padding:0px;
+  color: white;
+}
+
+.aboutme{
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.aboutme img{
+  margin-top:20px;
+  margin-bottom: 20px;
+  width:40vh;
+  height: 40vh;
+border-radius: 100%;
+border-style:solid;
+border-color: black;
+}
+
+.aboutmymusic{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.aboutmymusic img{
+  margin-top:20px;
+  margin-bottom: 20px;
+ }
+
+ .aboutmysnkr{
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+ }
+
+ .aboutmysnkr img{
+   margin-top:20px;
+   margin-bottom: 20px;
+   border-radius: 25% 0 25% 0;
+  }
+
+h1{
+  text-align: center;
+}
+
+hr{
+  width:270px;
+  height:3px;
+  background: white;
+}

@@ -1,0 +1,120 @@
+ul li{
+  list-style: none;
+
+}
+
+li{
+  margin: 10px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: black;
+   padding: 5px 15px;
+   transition: background 300ms;
+}
+
+nav ul {
+   display: inline-flex;
+   float: right;
+   list-style: none;
+}
+
+nav ul li a:hover {
+   background: black;
+   color: white;
+}
+
+header{
+ background:white;
+ position: fixed;
+ display: flex;
+   width: 100%;
+   top:0;
+  left:0;
+  height:70px;
+}
+
+header > * {
+   flex-grow: 1;
+   padding: 5px;
+}
+
+h3{
+ text-align: center;
+}
+
+.logo{
+ font-family: 'Bebas Neue',sans-serif ;
+ text-decoration: underline;
+}
+
+header .logo{
+  margin-left:20px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: black;
+   padding: 5px 15px;
+}
+
+.main-nav ul{
+ display: inline-flex;
+   text-decoration: none;
+}
+
+.banner{
+  height:65vh;
+  background: url(img/resumeimg.jpg);
+  background-size: cover;
+}
+
+.quote{
+  color: white;
+      width: 100%;
+      text-align:left;
+      padding-top: 50vh;
+      padding-left: 3vh;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito',serif;
+}
+
+.main-nav{
+  position: absolute;
+  right:0px;
+}
+
+
+  button {
+    padding: 10px;
+    background: black;
+    border: none;
+    color: white;
+    transition: background 300ms, box-shadow 300ms;
+}
+
+button:hover {
+    background: #252627;
+    box-shadow: 1px 1px 6px grey;
+}
+
+.grid{
+  display: grid;
+ grid-template-areas: "left right";
+}
+
+hr{
+  background: orange;
+  width:150px;
+  height: 3px;
+  margins: 0 0 3px 0;
+}
+
+ h1{
+  text-align: center;
+}

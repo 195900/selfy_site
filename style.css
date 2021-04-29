@@ -1,0 +1,191 @@
+ul li{
+  list-style: none;
+
+}
+
+li{
+  margin: 10px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: black;
+   padding: 5px 15px;
+   transition: background 300ms;
+}
+
+nav ul {
+   display: inline-flex;
+   float: right;
+   list-style: none;
+}
+
+nav ul li a:hover {
+   background: black;
+   color: white;
+}
+
+header{
+ background:white;
+ position: fixed;
+ display: flex;
+   width: 100%;
+   top:0;
+  left:0;
+  height:70px;
+}
+
+header > * {
+   flex-grow: 1;
+   padding: 5px;
+}
+
+.subscribe{
+  display:grid;
+grid-template-columns: : 1fr 1fr;
+}
+
+
+
+.main-col {
+   width: 95%;
+   max-width: 1200px;
+   margin: auto;
+}
+
+.logo{
+ font-family: 'Bebas Neue',sans-serif ;
+ text-decoration: underline;
+}
+
+header .logo{
+  margin-left:20px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: black;
+   padding: 5px 15px;
+}
+
+.main-nav ul{
+ display: inline-flex;
+   text-decoration: none;
+}
+
+.col-3 h2{
+font-weight: bolder;
+  text-align: center;
+}
+
+.banner{
+  height:65vh;
+  background: url(img/banner.png);
+  background-size: cover;
+}
+
+.quote{
+  color: white;
+      width: 100%;
+      text-align:left;
+      padding-top: 50vh;
+      padding-left: 3vh;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito',serif;
+}
+
+.content{
+margin-top: 20px;
+display: grid;
+grid-gap: 2%;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main-nav{
+  position: absolute;
+  right:0px;
+
+}
+
+footer .logo{
+  text-align: center;
+}
+
+
+
+.main-col button {
+     width: 100%;
+}
+
+  button {
+    padding: 10px;
+    background: black;
+    border: none;
+    color: white;
+    transition: background 300ms, box-shadow 300ms;
+}
+
+.content  a{
+      color: white;
+      text-decoration: none;
+}
+
+button:hover {
+    background: #252627;
+    box-shadow: 1px 1px 6px grey;
+}
+
+.subscribe{
+  margin-top: 50px;
+}
+
+.banner2{
+  background: url(img/banner2.jpg);
+  height:30vh;
+  background-size: cover;
+}
+
+.col-img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.form{
+  text-align: center;
+  padding:40px;
+}
+
+.form input{
+  border:none;
+}
+
+.form button{
+  margin-top:3px;
+}
+
+.col-img {
+    height: 35vh;
+    object-fit: fit;
+}
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+footer h2{
+  text-align: center;
+}
+
+ footer .logo{
+   padding: 3px;
+ }
+
+
+
+-------------------------------
